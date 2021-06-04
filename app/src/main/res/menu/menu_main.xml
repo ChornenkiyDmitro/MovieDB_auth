@@ -1,0 +1,21 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".main.MainActivity">
+    <item
+        android:id="@+id/popular"
+        android:orderInCategory="100"
+        android:title="@string/action_popular"/>
+    <item
+        android:id="@+id/genre"
+        android:title="@string/action_genre"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/actor"
+        android:title="@string/action_actor"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/profile"
+        android:title="@string/action_profile"
+        app:showAsAction="never"/>
+</menu>
